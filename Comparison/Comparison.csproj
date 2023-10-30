@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Bubble\Bubble.csproj" />
+      <ProjectReference Include="..\Comb\Comb.csproj" />
+      <ProjectReference Include="..\Insertion\Insertion.csproj" />
+      <ProjectReference Include="..\PanCake\PanCake.csproj" />
+      <ProjectReference Include="..\Quick\Quick.csproj" />
+      <ProjectReference Include="..\Shaker\Shaker.csproj" />
+      <ProjectReference Include="..\Tree\Tree.csproj" />
+    </ItemGroup>
+
+</Project>
